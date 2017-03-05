@@ -1,0 +1,33 @@
+/*.bg-img {
+	background-image: url("../img/bipolarpic.jpeg");
+	background-size:cover;
+}
+*/
+or
+.bg-img {
+	background: url("../img/bipolarpic.jpeg") no-repeat center center fixed;
+	background-size:cover;
+}
+body {
+	background-color: lavender
+}
+
+h1 {color:lightblue;}
+
+.btn {
+	font-weight:bold;
+	color:lightblue;
+}
+.btn:hover {
+	color:blue;
+	top:5px;
+}
+
+.vid1 {
+    display: block;
+	margin: 0 auto;
+}
+
+.contactinfo {
+	margin-left:20px;
+}
